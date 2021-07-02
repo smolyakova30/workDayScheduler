@@ -11,4 +11,4 @@
 
 You can visit my apllication here => <a href=https://smolyakova30.github.io/workDayScheduler/ here link> Work Day Scheduler</a>
 
-![Alt text](assets/images/WorkDaySchedulerScreenShot.jpg "Optional Title") 
+![Alt text](assets/images/scheduler.jpg "Optional Title") 
