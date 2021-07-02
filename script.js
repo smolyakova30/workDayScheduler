@@ -18,36 +18,36 @@ $("#currentDay").text(currentDay);
 
 
 function storeTasks(){
-    var store9 = JSON.parse(localStorage.getItem("09:00 am"));
+    var store9 = JSON.parse(localStorage.getItem("9 AM"));
     nineAm.val(store9);
   
-    var store10 = JSON.parse(localStorage.getItem("10:00 am"))
+    var store10 = JSON.parse(localStorage.getItem("10 AM"))
     tenAm.val(store10);
     
-    var store11 = JSON.parse(localStorage.getItem("11:00 am"))
+    var store11 = JSON.parse(localStorage.getItem("11 AM"))
     elevenAm.val(store11);
     
-    var store12 = JSON.parse(localStorage.getItem("12:00 pm"))
+    var store12 = JSON.parse(localStorage.getItem("12 PM"))
     twelvePm.val(store12);
     
-    var store13 = JSON.parse(localStorage.getItem("01:00 pm"))
+    var store13 = JSON.parse(localStorage.getItem("1 PM"))
     onePm.val(store13);
     
-    var store14 = JSON.parse(localStorage.getItem("02:00 pm"))
+    var store14 = JSON.parse(localStorage.getItem("2 PM"))
     twoPm.val(store14);
     
-    var store15 = JSON.parse(localStorage.getItem("03:00 pm"))
+    var store15 = JSON.parse(localStorage.getItem("3 PM"))
     threePm.val(store15);
    
-    var store16 = JSON.parse(localStorage.getItem("04:00 pm"))
+    var store16 = JSON.parse(localStorage.getItem("4 PM"))
     fourPm.val(store16);
     
-    var store17 = JSON.parse(localStorage.getItem("05:00 pm"))
+    var store17 = JSON.parse(localStorage.getItem("5 PM"))
     fivePm.val(store17);
 }
 
 function colorCoded () {
-      // switch statement 
+    
     $(".form-control").each(function () {
         let timeTest = parseInt($(this).attr("id"));
         hour = parseInt(hour);
