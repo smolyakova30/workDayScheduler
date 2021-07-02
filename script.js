@@ -47,7 +47,7 @@ function storeTasks(){
 }
 
 function colorCoded () {
-      
+      // switch statement 
     $(".form-control").each(function () {
         let timeTest = parseInt($(this).attr("id"));
         hour = parseInt(hour);
